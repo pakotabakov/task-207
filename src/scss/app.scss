@@ -24,14 +24,6 @@ html {
   justify-content: center;
   margin-top: 50px;
 }
-
-.card {
-  box-sizing: content-box;
-  box-sizing: border-box;
-  width: 500px;
-  border: 10px solid $grey-light;
-}
-
 .card-header {
   padding: 25px 5px 20px 25px;
   background-color: $light;
@@ -39,4 +31,11 @@ html {
 
 .card .content {
   padding: 30px 25px;
+}
+
+.card {
+  box-sizing: content-box;
+  box-sizing: border-box;
+  width: 500px;
+  border: 10px solid $grey-light;
 }
